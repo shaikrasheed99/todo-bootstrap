@@ -1,3 +1,21 @@
 body {
     background-color: #352f5b;
 }
+
+.container {
+    max-width: 600px;
+}
+
+input[type=text]:focus {
+    color: #fff;
+    border: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.todos li {
+    background-color: #423a6f;
+}
+
+.delete {
+    cursor: pointer;
+}
